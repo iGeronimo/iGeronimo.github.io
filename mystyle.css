@@ -1,4 +1,27 @@
-body{
-background-color: #ffffff;
-background-image: linear-gradient(180deg, #ffffff 0%, #000000 100%);    
+.title{
+   align-content: center;
+    background-color: #f3ec78;
+    background-image: linear-gradient(green, black);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    
 }
+.grad1{
+    font-family: 'Raleway';
+background-image: linear-gradient(white, rgba(47,79,79,0.4));
+    
+}
+
+#intro{
+    margin-left:;
+    margin-top: 100px;
+    margin-bottom: -80px;
+    font-size: 20px;
+}
+
+body{
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+}
+
