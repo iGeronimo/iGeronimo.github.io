@@ -9,5 +9,6 @@
 }
 
 #backbutton{
-    margin-left:calc(50% - 30px);
+    margin-left:calc(50% - 46px);
+    font-size: 30px;
 }
