@@ -1,10 +1,14 @@
+body{
+    margin: 0px;
+}
+
 .title {
-    margin-left: calc(50% - 121px);
+    margin-left:calc(50% - 137px);
     margin-bottom: 100px;
     margin-top: 50px;
     align-content: center;
     background-color: #f3ec78;
-    background-image: linear-gradient(green, black);
+    background-image: linear-gradient(gray, black);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -14,55 +18,78 @@
 
 .grad1 {
     font-family: 'Roboto Mono', monospace;
-    background-image: linear-gradient(white, rgba(47, 79, 79, 0.4));
+    background-image: linear-gradient(white, rgba(47, 46, 46, 0.4));
 
 }
 
 #intro {
-    margin-left: 10%;
-    margin-right: 60%;
-    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 50%;
+    font-size: 25px;
 }
 
+.showcase{
+    padding: 10px;
+}
+
+#showcase-title{
+    margin-left:calc(50% - 90px);
+    margin-bottom:300px;
+}
+
+#showcase-one{
+    margin-left: 50%;
+    margin-right: 15%;
+    margin-top: 10%;
+    font-size: 18px;
+}
+
+#showcase-two{
+    margin-left: 50%;
+    margin-right: 15%;
+    margin-top: 11%;
+    font-size: 18px;
+}
+
+#showcase-three{
+    margin-left: 50%;
+    margin-right: 15%;
+    margin-top: 15%;
+    font-size: 18px;
+}
 
 .socials {
-    margin-top: -21px;
+    padding:10px;
+    margin-top: -22px;
     font-family: 'Roboto Mono', monospace;
-    background-color: darkslategray;
+    background-color: #2e2e2e ;
 }
 
 #contacts {
     margin-left: calc(50% - 80px);
     color: white;
-
 }
 
-/* Style all font awesome icons */
+.socialButtons{
+    margin-left:calc(50% - 119px);
+}
+
 .fa {
     margin-left: 10px;
     margin-bottom: 10px;
+    margin-right: -12px;
     padding: 20px;
     font-size: 30px;
-    width: 20px;
+    width: 18px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
 }
 
-/* Add a hover effect if you want */
 .fa:hover {
     opacity: 0.7;
 }
 
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-/* Twitter */
 .fa-twitter {
     background: #55ACEE;
     color: white;
@@ -71,4 +98,10 @@
 .fa-linkedin {
     background: #007bb5;
     color: white;
+}
+
+.fa-github{
+    background: #f5f5f5;
+    color:black;
+    
 }
