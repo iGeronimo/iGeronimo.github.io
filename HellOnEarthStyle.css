@@ -1,0 +1,13 @@
+#videoText{
+    margin-left: 60%;
+    margin-right: 10%;
+    margin-top: 20%;
+}
+
+.back{
+ padding: 20px;
+}
+
+#backbutton{
+    margin-left:calc(50% - 30px);
+}
