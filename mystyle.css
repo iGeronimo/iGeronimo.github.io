@@ -1,3 +1,9 @@
+:root{
+    --typewriterSpeed: 3s;
+    --amountSteps: 10;
+    --typeSpeedDivStepSpeed: 750ms;
+}
+
 body{
     margin: 0px;
 }
@@ -26,6 +32,69 @@ body{
     margin-left: 20%;
     margin-right: 50%;
     font-size: 25px;
+    opacity: 0;
+    transform: translateY(3rem);
+    -webkit-transform: translateY(3rem);
+    -moz-transform: translateY(3rem);
+    -ms-transform: translateY(3rem);
+    -o-transform: translateY(3rem);
+    animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 1s) forwards;
+    -webkit-animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 1s) forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+}
+}
+
+#introAnimation {
+    margin-left: 20%;
+    margin-right: 50%;
+    font-size: 25px;
+    width: max-content;
+}
+
+#introAnimation::before,
+#introAnimation::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#introAnimation::before{
+    background: rgb(248,248,248);
+    animation: 
+        typewriter var(--typewriterSpeed) steps(var(--amountSteps)) 1s forwards;
+    
+}
+
+#introAnimation::after{
+    width: 0.125em;
+    background: black;
+    animation:
+        typewriter var(--typewriterSpeed) steps(var(--amountSteps)) 1s forwards,
+        blink var(--typeSpeedDivStepSpeed) steps(var(--amountSteps)) infinite;
+}
+
+@keyframes typewriter{
+    to{
+        left: 100%;
+    }
+}
+
+@keyframes blink {
+    to{
+        background: transparent;
+    }
 }
 
 .showcase{
