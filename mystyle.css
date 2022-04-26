@@ -70,17 +70,15 @@ body{
 
 #introAnimation::before{
     background: rgb(248,248,248);
-    animation: 
-        typewriter var(--typewriterSpeed) steps(var(--amountSteps)) 1s forwards;
-    
+    animation: typewriter var(--typewriterSpeed) steps(var(--amountSteps)) 1s forwards;            ;
+    -webkit-animation: typewriter var(--typewriterSpeed) steps(var(--amountSteps)) 1s forwards;            ;
 }
 
 #introAnimation::after{
     width: 0.125em;
     background: black;
-    animation:
-        typewriter var(--typewriterSpeed) steps(var(--amountSteps)) 1s forwards,
-        blink var(--typeSpeedDivStepSpeed) steps(var(--amountSteps)) infinite;
+    animation: typewriter var(--typewriterSpeed) steps(var(--amountSteps)) 1s forwards,        blink var(--typeSpeedDivStepSpeed) steps(var(--amountSteps)) infinite;
+    -webkit-animation: typewriter var(--typewriterSpeed) steps(var(--amountSteps)) 1s forwards,        blink var(--typeSpeedDivStepSpeed) steps(var(--amountSteps)) infinite;
 }
 
 @keyframes typewriter{
