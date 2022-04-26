@@ -9,7 +9,7 @@ body{
 }
 
 .title {
-    margin-left:calc(50% - 137px);
+    margin-left: calc(50% - 137px);
     margin-bottom: 100px;
     margin-top: 50px;
     align-content: center;
@@ -19,13 +19,11 @@ body{
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-
 }
 
 .grad1 {
     font-family: 'Roboto Mono', monospace;
     background-image: linear-gradient(white, rgba(47, 46, 46, 0.4));
-
 }
 
 #intro {
@@ -97,30 +95,30 @@ body{
     }
 }
 
-.showcase{
+.showcase {
     padding: 10px;
 }
 
-#showcase-title{
-    margin-left:calc(50% - 90px);
-    margin-bottom:300px;
+#showcase-title {
+    margin-left: calc(50% - 90px);
+    margin-bottom: 300px;
 }
 
-#showcase-one{
+#showcase-one {
     margin-left: 50%;
     margin-right: 15%;
     margin-top: 10%;
     font-size: 18px;
 }
 
-#showcase-two{
+#showcase-two {
     margin-left: 50%;
     margin-right: 15%;
     margin-top: 11%;
     font-size: 18px;
 }
 
-#showcase-three{
+#showcase-three {
     margin-left: 50%;
     margin-right: 15%;
     margin-top: 15%;
@@ -128,10 +126,10 @@ body{
 }
 
 .socials {
-    padding:10px;
+    padding: 10px;
     margin-top: -22px;
     font-family: 'Roboto Mono', monospace;
-    background-color: #2e2e2e ;
+    background-color: #2e2e2e;
 }
 
 #contacts {
@@ -139,8 +137,8 @@ body{
     color: white;
 }
 
-.socialButtons{
-    margin-left:calc(50% - 119px);
+.socialButtons {
+    margin-left: calc(50% - 119px);
 }
 
 .fa {
@@ -169,8 +167,7 @@ body{
     color: white;
 }
 
-.fa-github{
+.fa-github {
     background: #f5f5f5;
-    color:black;
-    
+    color: black;
 }
