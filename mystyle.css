@@ -37,7 +37,6 @@ body{
     -ms-transform: translateY(3rem);
     -o-transform: translateY(3rem);
     animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 1s) forwards;
-    -webkit-animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 1s) forwards;
 }
 
 @keyframes fadeInUp {
@@ -57,22 +56,22 @@ body{
     font-size: 25px;
     width: max-content;
     height: max-content;
+    position: relative;
 }
 
 #introAnimation::before,
 #introAnimation::after{
     content: "";
     position: absolute;
+    left: 0;
     top: 0;
     right: 0;
     bottom: 0;
-    left: 0;
 }
 
 #introAnimation::before{
     background: rgb(248,248,248);
-    animation: typewriter var(--typewriterSpeed) steps(var(--amountSteps)) 1s forwards;            ;
-    -webkit-animation: typewriter var(--typewriterSpeed) steps(var(--amountSteps)) 1s forwards;            ;
+    animation: typewriter var(--typewriterSpeed) steps(var(--amountSteps)) 1s forwards;            ;           ;
 }
 
 #introAnimation::after{
